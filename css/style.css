@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700;800&family=Manrope:wght@200;400;600;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Tapestry&family=Water+Brush&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+#header {
+  padding: 15px 0;
+  background: #FFFFFF;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+}
+#header .header-general {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .header-general__nav a {
+  font-size: 18px;
+  color: rgba(31, 46, 53, 0.8);
+  padding: 0 25px;
+  font-family: "Roboto", sans-serif;
+}
+#header .header-general__nav select {
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: rgba(31, 46, 53, 0.8);
+  padding: 0 25px;
+  font-family: "Roboto", sans-serif;
+}
+#header .header-general__icons {
+  display: flex;
+}
+#header .header-general__icons div {
+  color: black;
+  padding: 0 15px;
+  font-size: 20px;
+}
+
+#hero {
+  padding-top: 100px;
+}
+#hero .hero-general {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#hero .hero-general__block {
+  width: 545px;
+}
+#hero .hero-general__block h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  color: #1F2E35;
+  margin-bottom: 30px;
+}
+#hero .hero-general__block h1 span {
+  color: orangered;
+}
+#hero .hero-general__block p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #30444E;
+  margin-bottom: 50px;
+}
+#hero .hero-general__block button {
+  padding: 10px 30px;
+  background: orangered;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid orangered;
+  font-size: 18px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#hero .hero-general__block button:hover {
+  background: transparent;
+  color: orangered;
+}
+
+#wel {
+  background: #F7F7F7;
+  padding: 50px 0;
+}
+#wel .wel-general {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#wel .wel-general__block {
+  width: 450px;
+}
+#wel .wel-general__block h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  color: #1F2E35;
+  margin-bottom: 30px;
+}
+#wel .wel-general__block h1 span {
+  color: orangered;
+}
+#wel .wel-general__block p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #30444E;
+  margin-bottom: 30px;
+}
+#wel .wel-general__block p span {
+  color: orangered;
+}
+
+#services {
+  padding-top: 70px;
+}
+#services .services-general__title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  text-align: center;
+  color: #1F2E35;
+  margin-bottom: 50px;
+}
+#services .services-general__square {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#services .services-general__square__block {
+  width: 300px;
+  height: 400px;
+  margin-bottom: 50px;
+}
+#services .services-general__square__block img {
+  padding: 30px 0;
+}
+#services .services-general__square__block h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  color: #EE4248;
+  margin-bottom: 30px;
+}
+#services .services-general__square__block p {
+  width: 300px;
+  height: 100px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #30444E;
+  margin-bottom: 40px;
+}
+#services .services-general__square__block button {
+  padding: 10px 15px;
+  background: orangered;
+  color: white;
+  border-radius: 10px;
+  border: 1px solid orangered;
+  font-size: 16px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+#services .services-general__square__block button:hover {
+  background: transparent;
+  color: orangered;
+}
+
+#contact {
+  padding-top: 100px;
+}
+#contact .contact-general {
+  display: flex;
+}
+#contact .contact-general__block h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #263238;
+  margin-bottom: 15px;
+}
+#contact .contact-general__block p {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: grey;
+  margin-bottom: 20px;
+}
+#contact .contact-general__block2 {
+  margin: 17px 70px;
+  display: flex;
+  flex-direction: column;
+}
+#contact .contact-general__block2 h1 {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #263238;
+  margin-bottom: 15px;
+}
+#contact .contact-general__block2 a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+#footer {
+  background: orangered;
+  padding: 10px 0;
+}
+#footer .footer-general {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#footer .footer-general h1 {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

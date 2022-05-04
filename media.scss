@@ -1,0 +1,124 @@
+@media (max-width: 1024px) {
+  .container {
+    width: 90%;
+    border: 1px solid black;
+  }
+  #header .header-general__nav a {
+    font-size: 14px;
+    padding: 0 13px;
+  }
+  #header .header-general__nav select {
+    font-size: 14px;
+    padding: 0 13px;
+  }
+  #hero .hero-general__img {
+    width: 90%;
+  }
+  #hero .hero-general__block h1 {
+    font-size: 40px;
+  }
+  #hero .hero-general__block p {
+    font-size: 17px;
+  }
+  #wel .wel-general__img {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  #header .header-general__nav {
+    display: none;
+  }
+
+  #hero .hero-general {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  #hero .hero-general__block button {
+    margin-bottom: 40px;
+  }
+  #wel .wel-general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #wel .wel-general__img {
+    width: 90%;
+    margin-bottom: 30px;
+  }
+  #services .services-general__square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #services .services-general__square__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+}
+
+@media (max-width: 576px) {
+  #contact .contact-general {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #contact .contact-general__width {
+    width: 100%;
+    height: 2px;
+    background: orangered;
+  }
+  #footer .footer-general h1 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 415px) {
+  #wel .wel-general {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #wel .wel-general__img {
+    width: 84%;
+    margin-bottom: 30px;
+  }
+  #hero .hero-general__block h1 {
+    font-size: 33px;
+  }
+
+  #wel .wel-general__block h1 {
+    font-size: 25px;
+  }
+  #wel .wel-general__block p {
+    width: 83%;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 377px) {
+  #wel .wel-general__img {
+    width: 74%;
+    margin-bottom: 30px;
+  }
+  #wel .wel-general__block p {
+    width: 74%;
+    font-size: 15px;
+    text-align: center;
+  }
+}
